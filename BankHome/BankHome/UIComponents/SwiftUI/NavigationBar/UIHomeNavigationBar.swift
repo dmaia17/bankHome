@@ -3,17 +3,17 @@ import SwiftUI
 public struct UIHomeNavigationBar<Content: View>: View {
   
   private let content: Content
-  @Binding private var notificationHomeButtonClick: Bool
-  @Binding private var eyeHomeButtonClick: Bool
-  @Binding private var profileHomeButtonClick: Bool
+  private var notificationHomeButtonClickAction: () -> Void
+  private var eyeHomeButtonClickAction: () -> Void
+  private var profileHomeButtonClickAction: () -> Void
   
-  public init(notificationHomeButtonClick: Binding<Bool>,
-              eyeHomeButtonClick: Binding<Bool>,
-              profileHomeButtonClick: Binding<Bool>,
+  public init(notificationHomeButtonClickAction: @escaping () -> Void,
+              eyeHomeButtonClickAction: @escaping () -> Void,
+              profileHomeButtonClickAction: @escaping () -> Void,
               @ViewBuilder content: () -> Content) {
-    _notificationHomeButtonClick = notificationHomeButtonClick
-    _eyeHomeButtonClick = eyeHomeButtonClick
-    _profileHomeButtonClick = profileHomeButtonClick
+    self.notificationHomeButtonClickAction = notificationHomeButtonClickAction
+    self.eyeHomeButtonClickAction = eyeHomeButtonClickAction
+    self.profileHomeButtonClickAction = profileHomeButtonClickAction
     self.content = content()
   }
   
@@ -33,9 +33,9 @@ public struct UIHomeNavigationBar<Content: View>: View {
 
 struct UIHomeNavigationBar_Previews: PreviewProvider {
   static var previews: some View {
-    UIHomeNavigationBar(notificationHomeButtonClick: .constant(false),
-                        eyeHomeButtonClick: .constant(false),
-                        profileHomeButtonClick: .constant(false),
+    UIHomeNavigationBar(notificationHomeButtonClickAction: {},
+                        eyeHomeButtonClickAction: {},
+                        profileHomeButtonClickAction: {},
                         content: {
       ZStack {
         Color.red
@@ -67,7 +67,7 @@ extension UIHomeNavigationBar {
   private var iconsSectionView: some View {
     HStack {
       Button(action: {
-        notificationHomeButtonClick.toggle()
+        notificationHomeButtonClickAction()
       }) {
         Image(uiImage: UIImage.getImage(name: "ic_notification"))
           .resizable()
@@ -77,7 +77,7 @@ extension UIHomeNavigationBar {
       
       Button(action: {
         withAnimation {
-          eyeHomeButtonClick.toggle()
+          eyeHomeButtonClickAction()
         }
       }) {
         Image(uiImage: UIImage.getImage(name: "ic_eye_hide"))
@@ -87,7 +87,7 @@ extension UIHomeNavigationBar {
       .padding(.trailing, 10)
       
       Button(action: {
-        profileHomeButtonClick.toggle()
+        profileHomeButtonClickAction()
       }) {
         Image(uiImage: UIImage.getImage(name: "ic_profile"))
           .resizable()

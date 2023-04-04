@@ -61,6 +61,23 @@
 		51F2304D29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303B29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf */; };
 		51F2305029DC6D8A00CD3E50 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2304F29DC6D8A00CD3E50 /* Colors.swift */; };
 		51F2305229DC6DCF00CD3E50 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2305129DC6DCF00CD3E50 /* Image.swift */; };
+		51F2306129DC782700CD3E50 /* UIHomeDebitCardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2305F29DC782700CD3E50 /* UIHomeDebitCardTabView.swift */; };
+		51F2306229DC782700CD3E50 /* UIHomeDebitCardTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306029DC782700CD3E50 /* UIHomeDebitCardTabViewModel.swift */; };
+		51F2306529DC783300CD3E50 /* UIHomeHelpTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306329DC783300CD3E50 /* UIHomeHelpTabView.swift */; };
+		51F2306629DC783400CD3E50 /* UIHomeHelpTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306429DC783300CD3E50 /* UIHomeHelpTabViewModel.swift */; };
+		51F2306A29DC784300CD3E50 /* UIHomeMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306729DC784300CD3E50 /* UIHomeMainTabView.swift */; };
+		51F2306B29DC784300CD3E50 /* UIAccountCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306829DC784300CD3E50 /* UIAccountCardView.swift */; };
+		51F2306C29DC784300CD3E50 /* UIHomeMainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306929DC784300CD3E50 /* UIHomeMainTabViewModel.swift */; };
+		51F2306F29DC784F00CD3E50 /* UIHomeServicesTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306D29DC784F00CD3E50 /* UIHomeServicesTabViewModel.swift */; };
+		51F2307029DC784F00CD3E50 /* UIHomeServicesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2306E29DC784F00CD3E50 /* UIHomeServicesTabView.swift */; };
+		51F2307329DC786200CD3E50 /* UIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2307129DC786200CD3E50 /* UIHomeView.swift */; };
+		51F2307429DC786200CD3E50 /* UIHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2307229DC786200CD3E50 /* UIHomeViewModel.swift */; };
+		51F2307A29DCA41400CD3E50 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2307929DCA41400CD3E50 /* NavigationRouter.swift */; };
+		51F2307C29DCA4A600CD3E50 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2307B29DCA4A600CD3E50 /* Coordinator.swift */; };
+		51F2307E29DCA4F200CD3E50 /* UIViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2307D29DCA4F200CD3E50 /* UIViewNavigationController.swift */; };
+		51F2308129DCA8DD00CD3E50 /* DefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2308029DCA8DD00CD3E50 /* DefaultRouter.swift */; };
+		51F2308329DCABC500CD3E50 /* UICardConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2308229DCABC500CD3E50 /* UICardConversionView.swift */; };
+		51F2308729DCACFA00CD3E50 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2308629DCACFA00CD3E50 /* String.swift */; };
 		934132AC3109A8130267A3B1 /* Pods_BankHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025408713E7DDAF2E85DBB52 /* Pods_BankHome.framework */; };
 		93743F616C2DD8790B52540B /* Pods_BankHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5C88293D4C13193AFEAC1E /* Pods_BankHomeTests.framework */; };
 /* End PBXBuildFile section */
@@ -142,6 +159,23 @@
 		51F2303B29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		51F2304F29DC6D8A00CD3E50 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		51F2305129DC6DCF00CD3E50 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		51F2305F29DC782700CD3E50 /* UIHomeDebitCardTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeDebitCardTabView.swift; sourceTree = "<group>"; };
+		51F2306029DC782700CD3E50 /* UIHomeDebitCardTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeDebitCardTabViewModel.swift; sourceTree = "<group>"; };
+		51F2306329DC783300CD3E50 /* UIHomeHelpTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeHelpTabView.swift; sourceTree = "<group>"; };
+		51F2306429DC783300CD3E50 /* UIHomeHelpTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeHelpTabViewModel.swift; sourceTree = "<group>"; };
+		51F2306729DC784300CD3E50 /* UIHomeMainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeMainTabView.swift; sourceTree = "<group>"; };
+		51F2306829DC784300CD3E50 /* UIAccountCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAccountCardView.swift; sourceTree = "<group>"; };
+		51F2306929DC784300CD3E50 /* UIHomeMainTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeMainTabViewModel.swift; sourceTree = "<group>"; };
+		51F2306D29DC784F00CD3E50 /* UIHomeServicesTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeServicesTabViewModel.swift; sourceTree = "<group>"; };
+		51F2306E29DC784F00CD3E50 /* UIHomeServicesTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeServicesTabView.swift; sourceTree = "<group>"; };
+		51F2307129DC786200CD3E50 /* UIHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHomeView.swift; path = Home/UIHomeView.swift; sourceTree = "<group>"; };
+		51F2307229DC786200CD3E50 /* UIHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHomeViewModel.swift; path = Home/UIHomeViewModel.swift; sourceTree = "<group>"; };
+		51F2307929DCA41400CD3E50 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		51F2307B29DCA4A600CD3E50 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		51F2307D29DCA4F200CD3E50 /* UIViewNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewNavigationController.swift; sourceTree = "<group>"; };
+		51F2308029DCA8DD00CD3E50 /* DefaultRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRouter.swift; sourceTree = "<group>"; };
+		51F2308229DCABC500CD3E50 /* UICardConversionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICardConversionView.swift; sourceTree = "<group>"; };
+		51F2308629DCACFA00CD3E50 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		64D64303F4EFAE409CB7F06B /* Pods_BankHome_BankHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankHome_BankHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73386A2F0904D53A0F07CFAA /* Pods-BankHome-BankHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankHome-BankHomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-BankHome-BankHomeUITests/Pods-BankHome-BankHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF17924961EFE35F58EA338 /* Pods-BankHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankHome.debug.xcconfig"; path = "Target Support Files/Pods-BankHome/Pods-BankHome.debug.xcconfig"; sourceTree = "<group>"; };
@@ -203,15 +237,13 @@
 		51F22FAF29DC625E00CD3E50 /* BankHome */ = {
 			isa = PBXGroup;
 			children = (
-				51F2305829DC763300CD3E50 /* Infrastructure */,
-				51F2305729DC757200CD3E50 /* Resources */,
-				51F2305629DC748C00CD3E50 /* Modules */,
-				51F2305529DC748300CD3E50 /* Coordinators */,
 				51F2302529DC6B1A00CD3E50 /* Commom */,
-				51F22FDA29DC661D00CD3E50 /* UIComponents */,
-				51F22FB029DC625E00CD3E50 /* BankHomeApp.swift */,
-				51F22FB229DC625E00CD3E50 /* ContentView.swift */,
+				51F2305529DC748300CD3E50 /* Coordinators */,
+				51F2305829DC763300CD3E50 /* Infrastructure */,
 				51F22FB629DC626100CD3E50 /* Preview Content */,
+				51F2305729DC757200CD3E50 /* Resources */,
+				51F22FDA29DC661D00CD3E50 /* UIComponents */,
+				51F2305629DC748C00CD3E50 /* Views */,
 			);
 			path = BankHome;
 			sourceTree = "<group>";
@@ -245,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				51F2301629DC6A7100CD3E50 /* SwiftUI */,
+				51F2307D29DCA4F200CD3E50 /* UIViewNavigationController.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -281,12 +314,13 @@
 		51F2301629DC6A7100CD3E50 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				51F2301829DC6ACE00CD3E50 /* NavigationBar */,
+				51F22FF129DC67CD00CD3E50 /* Buttons */,
+				51F22FF229DC67EF00CD3E50 /* Extensions */,
 				51F2301729DC6ABF00CD3E50 /* HomeTabView */,
 				51F22FF329DC67F400CD3E50 /* Modal */,
-				51F22FF229DC67EF00CD3E50 /* Extensions */,
-				51F22FF129DC67CD00CD3E50 /* Buttons */,
+				51F2301829DC6ACE00CD3E50 /* NavigationBar */,
 				51F22FE429DC66C500CD3E50 /* UIBottomSheetView.swift */,
+				51F2308229DCABC500CD3E50 /* UICardConversionView.swift */,
 				51F22FDF29DC66C400CD3E50 /* UICheckboxView.swift */,
 				51F22FDC29DC66C400CD3E50 /* UIDisclaimerView.swift */,
 				51F22FDB29DC66C400CD3E50 /* UIInputTextField.swift */,
@@ -324,6 +358,7 @@
 		51F2302529DC6B1A00CD3E50 /* Commom */ = {
 			isa = PBXGroup;
 			children = (
+				51F2308529DCACE600CD3E50 /* Extensions */,
 				51F2305129DC6DCF00CD3E50 /* Image.swift */,
 				51F2304F29DC6D8A00CD3E50 /* Colors.swift */,
 				51F2302829DC6B9C00CD3E50 /* Fonts */,
@@ -368,15 +403,21 @@
 		51F2305529DC748300CD3E50 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				51F2307F29DCA8B700CD3E50 /* Routers */,
+				51F2307929DCA41400CD3E50 /* NavigationRouter.swift */,
+				51F2307B29DCA4A600CD3E50 /* Coordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		51F2305629DC748C00CD3E50 /* Modules */ = {
+		51F2305629DC748C00CD3E50 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				51F2305929DC776300CD3E50 /* Home */,
+				51F2307129DC786200CD3E50 /* UIHomeView.swift */,
+				51F2307229DC786200CD3E50 /* UIHomeViewModel.swift */,
 			);
-			path = Modules;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		51F2305729DC757200CD3E50 /* Resources */ = {
@@ -390,8 +431,82 @@
 		51F2305829DC763300CD3E50 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				51F22FB029DC625E00CD3E50 /* BankHomeApp.swift */,
+				51F22FB229DC625E00CD3E50 /* ContentView.swift */,
 			);
 			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		51F2305929DC776300CD3E50 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51F2305A29DC77A400CD3E50 /* Tabs */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		51F2305A29DC77A400CD3E50 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				51F2305E29DC77EB00CD3E50 /* Help */,
+				51F2305D29DC77DB00CD3E50 /* Services */,
+				51F2305C29DC77D500CD3E50 /* DebitCard */,
+				51F2305B29DC77C800CD3E50 /* Main */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		51F2305B29DC77C800CD3E50 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51F2306829DC784300CD3E50 /* UIAccountCardView.swift */,
+				51F2306729DC784300CD3E50 /* UIHomeMainTabView.swift */,
+				51F2306929DC784300CD3E50 /* UIHomeMainTabViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		51F2305C29DC77D500CD3E50 /* DebitCard */ = {
+			isa = PBXGroup;
+			children = (
+				51F2305F29DC782700CD3E50 /* UIHomeDebitCardTabView.swift */,
+				51F2306029DC782700CD3E50 /* UIHomeDebitCardTabViewModel.swift */,
+			);
+			path = DebitCard;
+			sourceTree = "<group>";
+		};
+		51F2305D29DC77DB00CD3E50 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51F2306E29DC784F00CD3E50 /* UIHomeServicesTabView.swift */,
+				51F2306D29DC784F00CD3E50 /* UIHomeServicesTabViewModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		51F2305E29DC77EB00CD3E50 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				51F2306329DC783300CD3E50 /* UIHomeHelpTabView.swift */,
+				51F2306429DC783300CD3E50 /* UIHomeHelpTabViewModel.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		51F2307F29DCA8B700CD3E50 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				51F2308029DCA8DD00CD3E50 /* DefaultRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		51F2308529DCACE600CD3E50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51F2308629DCACFA00CD3E50 /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B8530CF1FBE2ECCA8EC47E90 /* Frameworks */ = {
@@ -675,10 +790,16 @@
 			files = (
 				51F2302729DC6B6900CD3E50 /* Fonts.swift in Sources */,
 				51F22FEA29DC66C500CD3E50 /* UICheckboxView.swift in Sources */,
+				51F2307C29DCA4A600CD3E50 /* Coordinator.swift in Sources */,
 				51F2302429DC6B0E00CD3E50 /* UIHomeNavigationBar.swift in Sources */,
 				51F2301E29DC6AEB00CD3E50 /* UITabBarHomeItemModel.swift in Sources */,
 				51F22FB329DC625E00CD3E50 /* ContentView.swift in Sources */,
+				51F2307329DC786200CD3E50 /* UIHomeView.swift in Sources */,
 				51F22FB129DC625E00CD3E50 /* BankHomeApp.swift in Sources */,
+				51F2306C29DC784300CD3E50 /* UIHomeMainTabViewModel.swift in Sources */,
+				51F2307A29DCA41400CD3E50 /* NavigationRouter.swift in Sources */,
+				51F2307429DC786200CD3E50 /* UIHomeViewModel.swift in Sources */,
+				51F2306A29DC784300CD3E50 /* UIHomeMainTabView.swift in Sources */,
 				51F22FEC29DC66C500CD3E50 /* UITextToggleView.swift in Sources */,
 				51F2301529DC69A800CD3E50 /* UIModalDialogGenericErrorView.swift in Sources */,
 				51F22FFF29DC697700CD3E50 /* UITransparentButton.swift in Sources */,
@@ -686,23 +807,34 @@
 				51F2301C29DC6AEB00CD3E50 /* UIHomeTabBarView.swift in Sources */,
 				51F2300529DC698400CD3E50 /* View.swift in Sources */,
 				51F22FE829DC66C500CD3E50 /* UIShortcutSubtitleIconView.swift in Sources */,
+				51F2306B29DC784300CD3E50 /* UIAccountCardView.swift in Sources */,
+				51F2307E29DCA4F200CD3E50 /* UIViewNavigationController.swift in Sources */,
 				51F22FF029DC66C500CD3E50 /* UIRelationshipCenterReceiptView.swift in Sources */,
+				51F2308129DCA8DD00CD3E50 /* DefaultRouter.swift in Sources */,
 				51F22FE629DC66C500CD3E50 /* UIInputTextField.swift in Sources */,
+				51F2306F29DC784F00CD3E50 /* UIHomeServicesTabViewModel.swift in Sources */,
 				51F2302229DC6B0E00CD3E50 /* CustomNavBarPreferenceKey.swift in Sources */,
 				51F22FED29DC66C500CD3E50 /* UIShortcutButtonView.swift in Sources */,
+				51F2306129DC782700CD3E50 /* UIHomeDebitCardTabView.swift in Sources */,
 				51F2300329DC697700CD3E50 /* UIBaseButtonType.swift in Sources */,
+				51F2307029DC784F00CD3E50 /* UIHomeServicesTabView.swift in Sources */,
+				51F2306529DC783300CD3E50 /* UIHomeHelpTabView.swift in Sources */,
 				51F2300129DC697700CD3E50 /* UIOutlineButton.swift in Sources */,
 				51F2305229DC6DCF00CD3E50 /* Image.swift in Sources */,
 				51F2302329DC6B0E00CD3E50 /* UIDefaultNavigationBar.swift in Sources */,
 				51F2305029DC6D8A00CD3E50 /* Colors.swift in Sources */,
 				51F2301D29DC6AEB00CD3E50 /* UITabBarHomeContainerView.swift in Sources */,
+				51F2306229DC782700CD3E50 /* UIHomeDebitCardTabViewModel.swift in Sources */,
 				51F2300029DC697700CD3E50 /* UISolidButton.swift in Sources */,
 				51F2301429DC69A800CD3E50 /* UIModalDialogView.swift in Sources */,
 				51F22FE729DC66C500CD3E50 /* UIDisclaimerView.swift in Sources */,
 				51F22FEF29DC66C500CD3E50 /* UIBottomSheetView.swift in Sources */,
 				51F22FEB29DC66C500CD3E50 /* UIProgressBar.swift in Sources */,
+				51F2308329DCABC500CD3E50 /* UICardConversionView.swift in Sources */,
 				51F2300229DC697700CD3E50 /* UISecondaryButton.swift in Sources */,
+				51F2306629DC783400CD3E50 /* UIHomeHelpTabViewModel.swift in Sources */,
 				51F22FE929DC66C500CD3E50 /* UILoadingView.swift in Sources */,
+				51F2308729DCACFA00CD3E50 /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
