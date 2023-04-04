@@ -61,7 +61,7 @@ struct UIDisclaimerView_Previews: PreviewProvider {
         .padding(24)
       
       SwiftUI.Color(UIColor.dark100)
-      UIDisclaimerView(text: "O valor inserido excede o seu limite. Para solicitar uma análise de aumento de limite envie seu último IR mais comprovante para o e-mail bs2go@bancobs2.com.br", clickAction: { print("clicked") })
+      UIDisclaimerView(text: "O valor inserido excede o seu limite. Para solicitar uma análise de aumento de limite envie seu último IR mais comprovante para o e-mail", clickAction: { print("clicked") })
         .padding(24)
 
       SwiftUI.Color(UIColor.dark100)
