@@ -15,6 +15,52 @@
 		51F22FC229DC626100CD3E50 /* BankHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FC129DC626100CD3E50 /* BankHomeTests.swift */; };
 		51F22FCC29DC626100CD3E50 /* BankHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FCB29DC626100CD3E50 /* BankHomeUITests.swift */; };
 		51F22FCE29DC626100CD3E50 /* BankHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FCD29DC626100CD3E50 /* BankHomeUITestsLaunchTests.swift */; };
+		51F22FE629DC66C500CD3E50 /* UIInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FDB29DC66C400CD3E50 /* UIInputTextField.swift */; };
+		51F22FE729DC66C500CD3E50 /* UIDisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FDC29DC66C400CD3E50 /* UIDisclaimerView.swift */; };
+		51F22FE829DC66C500CD3E50 /* UIShortcutSubtitleIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FDD29DC66C400CD3E50 /* UIShortcutSubtitleIconView.swift */; };
+		51F22FE929DC66C500CD3E50 /* UILoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FDE29DC66C400CD3E50 /* UILoadingView.swift */; };
+		51F22FEA29DC66C500CD3E50 /* UICheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FDF29DC66C400CD3E50 /* UICheckboxView.swift */; };
+		51F22FEB29DC66C500CD3E50 /* UIProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FE029DC66C500CD3E50 /* UIProgressBar.swift */; };
+		51F22FEC29DC66C500CD3E50 /* UITextToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FE129DC66C500CD3E50 /* UITextToggleView.swift */; };
+		51F22FED29DC66C500CD3E50 /* UIShortcutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FE229DC66C500CD3E50 /* UIShortcutButtonView.swift */; };
+		51F22FEE29DC66C500CD3E50 /* UIOriginDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FE329DC66C500CD3E50 /* UIOriginDestinyView.swift */; };
+		51F22FEF29DC66C500CD3E50 /* UIBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FE429DC66C500CD3E50 /* UIBottomSheetView.swift */; };
+		51F22FF029DC66C500CD3E50 /* UIRelationshipCenterReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FE529DC66C500CD3E50 /* UIRelationshipCenterReceiptView.swift */; };
+		51F22FFF29DC697700CD3E50 /* UITransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FFA29DC697700CD3E50 /* UITransparentButton.swift */; };
+		51F2300029DC697700CD3E50 /* UISolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FFB29DC697700CD3E50 /* UISolidButton.swift */; };
+		51F2300129DC697700CD3E50 /* UIOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FFC29DC697700CD3E50 /* UIOutlineButton.swift */; };
+		51F2300229DC697700CD3E50 /* UISecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FFD29DC697700CD3E50 /* UISecondaryButton.swift */; };
+		51F2300329DC697700CD3E50 /* UIBaseButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F22FFE29DC697700CD3E50 /* UIBaseButtonType.swift */; };
+		51F2300529DC698400CD3E50 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2300429DC698300CD3E50 /* View.swift */; };
+		51F2301429DC69A800CD3E50 /* UIModalDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2301229DC69A800CD3E50 /* UIModalDialogView.swift */; };
+		51F2301529DC69A800CD3E50 /* UIModalDialogGenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2301329DC69A800CD3E50 /* UIModalDialogGenericErrorView.swift */; };
+		51F2301C29DC6AEB00CD3E50 /* UIHomeTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2301929DC6AEB00CD3E50 /* UIHomeTabBarView.swift */; };
+		51F2301D29DC6AEB00CD3E50 /* UITabBarHomeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2301A29DC6AEB00CD3E50 /* UITabBarHomeContainerView.swift */; };
+		51F2301E29DC6AEB00CD3E50 /* UITabBarHomeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2301B29DC6AEB00CD3E50 /* UITabBarHomeItemModel.swift */; };
+		51F2302229DC6B0E00CD3E50 /* CustomNavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2301F29DC6B0E00CD3E50 /* CustomNavBarPreferenceKey.swift */; };
+		51F2302329DC6B0E00CD3E50 /* UIDefaultNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2302029DC6B0E00CD3E50 /* UIDefaultNavigationBar.swift */; };
+		51F2302429DC6B0E00CD3E50 /* UIHomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2302129DC6B0E00CD3E50 /* UIHomeNavigationBar.swift */; };
+		51F2302729DC6B6900CD3E50 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2302629DC6B6900CD3E50 /* Fonts.swift */; };
+		51F2303C29DC6BEB00CD3E50 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2302A29DC6BEB00CD3E50 /* Montserrat-BoldItalic.ttf */; };
+		51F2303D29DC6BEB00CD3E50 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2302B29DC6BEB00CD3E50 /* Montserrat-ExtraLight.ttf */; };
+		51F2303E29DC6BEB00CD3E50 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2302C29DC6BEB00CD3E50 /* Montserrat-ExtraBold.ttf */; };
+		51F2303F29DC6BEB00CD3E50 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2302D29DC6BEB00CD3E50 /* Montserrat-Regular.ttf */; };
+		51F2304029DC6BEB00CD3E50 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2302E29DC6BEB00CD3E50 /* Montserrat-SemiBoldItalic.ttf */; };
+		51F2304129DC6BEB00CD3E50 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2302F29DC6BEB00CD3E50 /* Montserrat-Thin.ttf */; };
+		51F2304229DC6BEB00CD3E50 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303029DC6BEB00CD3E50 /* Montserrat-LightItalic.ttf */; };
+		51F2304329DC6BEB00CD3E50 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303129DC6BEB00CD3E50 /* Montserrat-Light.ttf */; };
+		51F2304429DC6BEB00CD3E50 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303229DC6BEB00CD3E50 /* Montserrat-MediumItalic.ttf */; };
+		51F2304529DC6BEB00CD3E50 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303329DC6BEB00CD3E50 /* Montserrat-Bold.ttf */; };
+		51F2304629DC6BEB00CD3E50 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303429DC6BEB00CD3E50 /* Montserrat-Italic.ttf */; };
+		51F2304729DC6BEB00CD3E50 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303529DC6BEB00CD3E50 /* Montserrat-Black.ttf */; };
+		51F2304829DC6BEB00CD3E50 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303629DC6BEB00CD3E50 /* Montserrat-ExtraLightItalic.ttf */; };
+		51F2304929DC6BEB00CD3E50 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303729DC6BEB00CD3E50 /* Montserrat-BlackItalic.ttf */; };
+		51F2304A29DC6BEB00CD3E50 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303829DC6BEB00CD3E50 /* Montserrat-ThinItalic.ttf */; };
+		51F2304B29DC6BEB00CD3E50 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303929DC6BEB00CD3E50 /* Montserrat-ExtraBoldItalic.ttf */; };
+		51F2304C29DC6BEB00CD3E50 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303A29DC6BEB00CD3E50 /* Montserrat-Medium.ttf */; };
+		51F2304D29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51F2303B29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf */; };
+		51F2305029DC6D8A00CD3E50 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2304F29DC6D8A00CD3E50 /* Colors.swift */; };
+		51F2305229DC6DCF00CD3E50 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2305129DC6DCF00CD3E50 /* Image.swift */; };
 		934132AC3109A8130267A3B1 /* Pods_BankHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025408713E7DDAF2E85DBB52 /* Pods_BankHome.framework */; };
 		93743F616C2DD8790B52540B /* Pods_BankHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5C88293D4C13193AFEAC1E /* Pods_BankHomeTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +96,52 @@
 		51F22FC729DC626100CD3E50 /* BankHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F22FCB29DC626100CD3E50 /* BankHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankHomeUITests.swift; sourceTree = "<group>"; };
 		51F22FCD29DC626100CD3E50 /* BankHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51F22FDB29DC66C400CD3E50 /* UIInputTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIInputTextField.swift; sourceTree = "<group>"; };
+		51F22FDC29DC66C400CD3E50 /* UIDisclaimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDisclaimerView.swift; sourceTree = "<group>"; };
+		51F22FDD29DC66C400CD3E50 /* UIShortcutSubtitleIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIShortcutSubtitleIconView.swift; sourceTree = "<group>"; };
+		51F22FDE29DC66C400CD3E50 /* UILoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILoadingView.swift; sourceTree = "<group>"; };
+		51F22FDF29DC66C400CD3E50 /* UICheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckboxView.swift; sourceTree = "<group>"; };
+		51F22FE029DC66C500CD3E50 /* UIProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProgressBar.swift; sourceTree = "<group>"; };
+		51F22FE129DC66C500CD3E50 /* UITextToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextToggleView.swift; sourceTree = "<group>"; };
+		51F22FE229DC66C500CD3E50 /* UIShortcutButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIShortcutButtonView.swift; sourceTree = "<group>"; };
+		51F22FE329DC66C500CD3E50 /* UIOriginDestinyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOriginDestinyView.swift; sourceTree = "<group>"; };
+		51F22FE429DC66C500CD3E50 /* UIBottomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBottomSheetView.swift; sourceTree = "<group>"; };
+		51F22FE529DC66C500CD3E50 /* UIRelationshipCenterReceiptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRelationshipCenterReceiptView.swift; sourceTree = "<group>"; };
+		51F22FFA29DC697700CD3E50 /* UITransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITransparentButton.swift; sourceTree = "<group>"; };
+		51F22FFB29DC697700CD3E50 /* UISolidButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISolidButton.swift; sourceTree = "<group>"; };
+		51F22FFC29DC697700CD3E50 /* UIOutlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOutlineButton.swift; sourceTree = "<group>"; };
+		51F22FFD29DC697700CD3E50 /* UISecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISecondaryButton.swift; sourceTree = "<group>"; };
+		51F22FFE29DC697700CD3E50 /* UIBaseButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBaseButtonType.swift; sourceTree = "<group>"; };
+		51F2300429DC698300CD3E50 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		51F2301229DC69A800CD3E50 /* UIModalDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModalDialogView.swift; sourceTree = "<group>"; };
+		51F2301329DC69A800CD3E50 /* UIModalDialogGenericErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModalDialogGenericErrorView.swift; sourceTree = "<group>"; };
+		51F2301929DC6AEB00CD3E50 /* UIHomeTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeTabBarView.swift; sourceTree = "<group>"; };
+		51F2301A29DC6AEB00CD3E50 /* UITabBarHomeContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarHomeContainerView.swift; sourceTree = "<group>"; };
+		51F2301B29DC6AEB00CD3E50 /* UITabBarHomeItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarHomeItemModel.swift; sourceTree = "<group>"; };
+		51F2301F29DC6B0E00CD3E50 /* CustomNavBarPreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKey.swift; sourceTree = "<group>"; };
+		51F2302029DC6B0E00CD3E50 /* UIDefaultNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDefaultNavigationBar.swift; sourceTree = "<group>"; };
+		51F2302129DC6B0E00CD3E50 /* UIHomeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHomeNavigationBar.swift; sourceTree = "<group>"; };
+		51F2302629DC6B6900CD3E50 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		51F2302A29DC6BEB00CD3E50 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		51F2302B29DC6BEB00CD3E50 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		51F2302C29DC6BEB00CD3E50 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		51F2302D29DC6BEB00CD3E50 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		51F2302E29DC6BEB00CD3E50 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		51F2302F29DC6BEB00CD3E50 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		51F2303029DC6BEB00CD3E50 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		51F2303129DC6BEB00CD3E50 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		51F2303229DC6BEB00CD3E50 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		51F2303329DC6BEB00CD3E50 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		51F2303429DC6BEB00CD3E50 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		51F2303529DC6BEB00CD3E50 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		51F2303629DC6BEB00CD3E50 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		51F2303729DC6BEB00CD3E50 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		51F2303829DC6BEB00CD3E50 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		51F2303929DC6BEB00CD3E50 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		51F2303A29DC6BEB00CD3E50 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		51F2303B29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		51F2304F29DC6D8A00CD3E50 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		51F2305129DC6DCF00CD3E50 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		64D64303F4EFAE409CB7F06B /* Pods_BankHome_BankHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankHome_BankHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73386A2F0904D53A0F07CFAA /* Pods-BankHome-BankHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankHome-BankHomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-BankHome-BankHomeUITests/Pods-BankHome-BankHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF17924961EFE35F58EA338 /* Pods-BankHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankHome.debug.xcconfig"; path = "Target Support Files/Pods-BankHome/Pods-BankHome.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +203,8 @@
 		51F22FAF29DC625E00CD3E50 /* BankHome */ = {
 			isa = PBXGroup;
 			children = (
+				51F2302529DC6B1A00CD3E50 /* Commom */,
+				51F22FDA29DC661D00CD3E50 /* UIComponents */,
 				51F22FB029DC625E00CD3E50 /* BankHomeApp.swift */,
 				51F22FB229DC625E00CD3E50 /* ContentView.swift */,
 				51F22FB429DC626100CD3E50 /* Assets.xcassets */,
@@ -144,6 +238,130 @@
 			path = BankHomeUITests;
 			sourceTree = "<group>";
 		};
+		51F22FDA29DC661D00CD3E50 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				51F2301629DC6A7100CD3E50 /* SwiftUI */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		51F22FF129DC67CD00CD3E50 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51F22FFE29DC697700CD3E50 /* UIBaseButtonType.swift */,
+				51F22FFC29DC697700CD3E50 /* UIOutlineButton.swift */,
+				51F22FFD29DC697700CD3E50 /* UISecondaryButton.swift */,
+				51F22FFB29DC697700CD3E50 /* UISolidButton.swift */,
+				51F22FFA29DC697700CD3E50 /* UITransparentButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		51F22FF229DC67EF00CD3E50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51F2300429DC698300CD3E50 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		51F22FF329DC67F400CD3E50 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				51F2301329DC69A800CD3E50 /* UIModalDialogGenericErrorView.swift */,
+				51F2301229DC69A800CD3E50 /* UIModalDialogView.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		51F2301629DC6A7100CD3E50 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				51F2301829DC6ACE00CD3E50 /* NavigationBar */,
+				51F2301729DC6ABF00CD3E50 /* HomeTabView */,
+				51F22FF329DC67F400CD3E50 /* Modal */,
+				51F22FF229DC67EF00CD3E50 /* Extensions */,
+				51F22FF129DC67CD00CD3E50 /* Buttons */,
+				51F22FE429DC66C500CD3E50 /* UIBottomSheetView.swift */,
+				51F22FDF29DC66C400CD3E50 /* UICheckboxView.swift */,
+				51F22FDC29DC66C400CD3E50 /* UIDisclaimerView.swift */,
+				51F22FDB29DC66C400CD3E50 /* UIInputTextField.swift */,
+				51F22FDE29DC66C400CD3E50 /* UILoadingView.swift */,
+				51F22FE329DC66C500CD3E50 /* UIOriginDestinyView.swift */,
+				51F22FE029DC66C500CD3E50 /* UIProgressBar.swift */,
+				51F22FE529DC66C500CD3E50 /* UIRelationshipCenterReceiptView.swift */,
+				51F22FE229DC66C500CD3E50 /* UIShortcutButtonView.swift */,
+				51F22FDD29DC66C400CD3E50 /* UIShortcutSubtitleIconView.swift */,
+				51F22FE129DC66C500CD3E50 /* UITextToggleView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		51F2301729DC6ABF00CD3E50 /* HomeTabView */ = {
+			isa = PBXGroup;
+			children = (
+				51F2301929DC6AEB00CD3E50 /* UIHomeTabBarView.swift */,
+				51F2301A29DC6AEB00CD3E50 /* UITabBarHomeContainerView.swift */,
+				51F2301B29DC6AEB00CD3E50 /* UITabBarHomeItemModel.swift */,
+			);
+			path = HomeTabView;
+			sourceTree = "<group>";
+		};
+		51F2301829DC6ACE00CD3E50 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				51F2301F29DC6B0E00CD3E50 /* CustomNavBarPreferenceKey.swift */,
+				51F2302029DC6B0E00CD3E50 /* UIDefaultNavigationBar.swift */,
+				51F2302129DC6B0E00CD3E50 /* UIHomeNavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		51F2302529DC6B1A00CD3E50 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				51F2305129DC6DCF00CD3E50 /* Image.swift */,
+				51F2304F29DC6D8A00CD3E50 /* Colors.swift */,
+				51F2302829DC6B9C00CD3E50 /* Fonts */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		51F2302829DC6B9C00CD3E50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51F2302929DC6BBD00CD3E50 /* Montserrat */,
+				51F2302629DC6B6900CD3E50 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51F2302929DC6BBD00CD3E50 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				51F2303529DC6BEB00CD3E50 /* Montserrat-Black.ttf */,
+				51F2303729DC6BEB00CD3E50 /* Montserrat-BlackItalic.ttf */,
+				51F2303329DC6BEB00CD3E50 /* Montserrat-Bold.ttf */,
+				51F2302A29DC6BEB00CD3E50 /* Montserrat-BoldItalic.ttf */,
+				51F2302C29DC6BEB00CD3E50 /* Montserrat-ExtraBold.ttf */,
+				51F2303929DC6BEB00CD3E50 /* Montserrat-ExtraBoldItalic.ttf */,
+				51F2302B29DC6BEB00CD3E50 /* Montserrat-ExtraLight.ttf */,
+				51F2303629DC6BEB00CD3E50 /* Montserrat-ExtraLightItalic.ttf */,
+				51F2303429DC6BEB00CD3E50 /* Montserrat-Italic.ttf */,
+				51F2303129DC6BEB00CD3E50 /* Montserrat-Light.ttf */,
+				51F2303029DC6BEB00CD3E50 /* Montserrat-LightItalic.ttf */,
+				51F2303A29DC6BEB00CD3E50 /* Montserrat-Medium.ttf */,
+				51F2303229DC6BEB00CD3E50 /* Montserrat-MediumItalic.ttf */,
+				51F2302D29DC6BEB00CD3E50 /* Montserrat-Regular.ttf */,
+				51F2303B29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf */,
+				51F2302E29DC6BEB00CD3E50 /* Montserrat-SemiBoldItalic.ttf */,
+				51F2302F29DC6BEB00CD3E50 /* Montserrat-Thin.ttf */,
+				51F2303829DC6BEB00CD3E50 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
 		B8530CF1FBE2ECCA8EC47E90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +382,6 @@
 				E75E6BE1324DE21BC8EAAABC /* Pods-BankHomeTests.debug.xcconfig */,
 				E8BB194F10D534B1002D74D8 /* Pods-BankHomeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,8 +494,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F2304429DC6BEB00CD3E50 /* Montserrat-MediumItalic.ttf in Resources */,
+				51F2304729DC6BEB00CD3E50 /* Montserrat-Black.ttf in Resources */,
+				51F2304829DC6BEB00CD3E50 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				51F2304329DC6BEB00CD3E50 /* Montserrat-Light.ttf in Resources */,
+				51F2304029DC6BEB00CD3E50 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				51F2304929DC6BEB00CD3E50 /* Montserrat-BlackItalic.ttf in Resources */,
+				51F2303F29DC6BEB00CD3E50 /* Montserrat-Regular.ttf in Resources */,
+				51F2303E29DC6BEB00CD3E50 /* Montserrat-ExtraBold.ttf in Resources */,
+				51F2303C29DC6BEB00CD3E50 /* Montserrat-BoldItalic.ttf in Resources */,
+				51F2304C29DC6BEB00CD3E50 /* Montserrat-Medium.ttf in Resources */,
+				51F2304B29DC6BEB00CD3E50 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				51F2304A29DC6BEB00CD3E50 /* Montserrat-ThinItalic.ttf in Resources */,
+				51F2303D29DC6BEB00CD3E50 /* Montserrat-ExtraLight.ttf in Resources */,
 				51F22FB829DC626100CD3E50 /* Preview Assets.xcassets in Resources */,
+				51F2304D29DC6BEB00CD3E50 /* Montserrat-SemiBold.ttf in Resources */,
+				51F2304529DC6BEB00CD3E50 /* Montserrat-Bold.ttf in Resources */,
+				51F2304129DC6BEB00CD3E50 /* Montserrat-Thin.ttf in Resources */,
 				51F22FB529DC626100CD3E50 /* Assets.xcassets in Resources */,
+				51F2304629DC6BEB00CD3E50 /* Montserrat-Italic.ttf in Resources */,
+				51F2304229DC6BEB00CD3E50 /* Montserrat-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,8 +641,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F2302729DC6B6900CD3E50 /* Fonts.swift in Sources */,
+				51F22FEA29DC66C500CD3E50 /* UICheckboxView.swift in Sources */,
+				51F2302429DC6B0E00CD3E50 /* UIHomeNavigationBar.swift in Sources */,
+				51F2301E29DC6AEB00CD3E50 /* UITabBarHomeItemModel.swift in Sources */,
 				51F22FB329DC625E00CD3E50 /* ContentView.swift in Sources */,
 				51F22FB129DC625E00CD3E50 /* BankHomeApp.swift in Sources */,
+				51F22FEC29DC66C500CD3E50 /* UITextToggleView.swift in Sources */,
+				51F2301529DC69A800CD3E50 /* UIModalDialogGenericErrorView.swift in Sources */,
+				51F22FFF29DC697700CD3E50 /* UITransparentButton.swift in Sources */,
+				51F22FEE29DC66C500CD3E50 /* UIOriginDestinyView.swift in Sources */,
+				51F2301C29DC6AEB00CD3E50 /* UIHomeTabBarView.swift in Sources */,
+				51F2300529DC698400CD3E50 /* View.swift in Sources */,
+				51F22FE829DC66C500CD3E50 /* UIShortcutSubtitleIconView.swift in Sources */,
+				51F22FF029DC66C500CD3E50 /* UIRelationshipCenterReceiptView.swift in Sources */,
+				51F22FE629DC66C500CD3E50 /* UIInputTextField.swift in Sources */,
+				51F2302229DC6B0E00CD3E50 /* CustomNavBarPreferenceKey.swift in Sources */,
+				51F22FED29DC66C500CD3E50 /* UIShortcutButtonView.swift in Sources */,
+				51F2300329DC697700CD3E50 /* UIBaseButtonType.swift in Sources */,
+				51F2300129DC697700CD3E50 /* UIOutlineButton.swift in Sources */,
+				51F2305229DC6DCF00CD3E50 /* Image.swift in Sources */,
+				51F2302329DC6B0E00CD3E50 /* UIDefaultNavigationBar.swift in Sources */,
+				51F2305029DC6D8A00CD3E50 /* Colors.swift in Sources */,
+				51F2301D29DC6AEB00CD3E50 /* UITabBarHomeContainerView.swift in Sources */,
+				51F2300029DC697700CD3E50 /* UISolidButton.swift in Sources */,
+				51F2301429DC69A800CD3E50 /* UIModalDialogView.swift in Sources */,
+				51F22FE729DC66C500CD3E50 /* UIDisclaimerView.swift in Sources */,
+				51F22FEF29DC66C500CD3E50 /* UIBottomSheetView.swift in Sources */,
+				51F22FEB29DC66C500CD3E50 /* UIProgressBar.swift in Sources */,
+				51F2300229DC697700CD3E50 /* UISecondaryButton.swift in Sources */,
+				51F22FE929DC66C500CD3E50 /* UILoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
