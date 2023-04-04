@@ -203,11 +203,14 @@
 		51F22FAF29DC625E00CD3E50 /* BankHome */ = {
 			isa = PBXGroup;
 			children = (
+				51F2305829DC763300CD3E50 /* Infrastructure */,
+				51F2305729DC757200CD3E50 /* Resources */,
+				51F2305629DC748C00CD3E50 /* Modules */,
+				51F2305529DC748300CD3E50 /* Coordinators */,
 				51F2302529DC6B1A00CD3E50 /* Commom */,
 				51F22FDA29DC661D00CD3E50 /* UIComponents */,
 				51F22FB029DC625E00CD3E50 /* BankHomeApp.swift */,
 				51F22FB229DC625E00CD3E50 /* ContentView.swift */,
-				51F22FB429DC626100CD3E50 /* Assets.xcassets */,
 				51F22FB629DC626100CD3E50 /* Preview Content */,
 			);
 			path = BankHome;
@@ -360,6 +363,35 @@
 				51F2303829DC6BEB00CD3E50 /* Montserrat-ThinItalic.ttf */,
 			);
 			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		51F2305529DC748300CD3E50 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		51F2305629DC748C00CD3E50 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		51F2305729DC757200CD3E50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51F22FB429DC626100CD3E50 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		51F2305829DC763300CD3E50 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		B8530CF1FBE2ECCA8EC47E90 /* Frameworks */ = {
